@@ -1,0 +1,23 @@
+.Contact > form {
+    width: 80vw;
+	display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.Contact > form input, .Contact > form textarea{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Contact > form > div > div {
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .Contact > form {
+        width: 35vw;
+    }
+}

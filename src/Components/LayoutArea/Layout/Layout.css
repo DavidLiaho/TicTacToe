@@ -1,0 +1,11 @@
+.Layout {
+    height: 100%;
+	display: grid;
+    grid-template-rows: 10% 2% 83% 5%;
+}
+
+.Layout > main {
+    max-width: 100%;
+    box-sizing: border-box;
+}
+

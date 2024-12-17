@@ -1,0 +1,14 @@
+.Routing {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+.Routing > * {
+    max-width: 100%;
+}
